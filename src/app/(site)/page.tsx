@@ -19,12 +19,12 @@ export default async function Home() {
       <p
         className="mt-3 text-xl text-gray-300"
       >
-        I&apos;m a full-stack developer, I love to build things and learn new technologies.
+        Esto no es un blog, es solo una test de como usar Sanity con Next.js
       </p>
       <h2
         className="mt-24 font-bold text-gray-400 text-3xl"
       >
-        My projects
+        Hasbulla haciendo cosas
       </h2>
       <div
         className="mt-5 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 "
