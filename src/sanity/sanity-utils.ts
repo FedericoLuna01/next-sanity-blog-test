@@ -12,7 +12,10 @@ export async function getProjects(): Promise<Project[]> {
       "image": image.asset->url,
       url,
       content
-    }`
+    }`,
+    {
+      next: {revalidate: 20}
+    }
   )
 }
 
@@ -27,6 +30,7 @@ export async function getProject(slug: string): Promise<Project> {
       url,
       content
     }`,
-    { slug }
+    { slug, next: {revalidate: 20} },
+    
   )
 }
